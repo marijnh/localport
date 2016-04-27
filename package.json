@@ -1,0 +1,19 @@
+{
+  "name": "localport",
+  "version": "0.0.1",
+  "description": "Proxy to local ports based on the hash of subdomains",
+  "keywords": ["proxy", "localhost", "port"],
+  "author": "Marijn Haverbeke <marijnh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "http-proxy": "^1.13.2",
+    "sha1": "^1.1.1"
+  },
+  "bin": {
+    "localport": "./localport.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marijnh/localport.git"
+  }
+}
