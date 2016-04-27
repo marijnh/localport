@@ -54,7 +54,7 @@ server {
 }
 ```
 
-The `proxy_pass` command (when used in server mode), support the
+The `localport` command (when used in server mode), support the
 following arguments:
 
 **`--port PORT`** to set the port to listen on. Defaults to 8000.
